@@ -17,7 +17,11 @@ body{
   margin: 0 auto;
   padding: 24px 24px;
   font-family: 'Figtree', sans-serif;
+  border: 1px 0px 1px 1px solid black;
   box-shadow: 8px 8px;
+}
+.card:hover {
+  outline: 2px solid black;
 }
 
 .card-image{
