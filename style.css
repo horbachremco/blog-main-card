@@ -1,5 +1,8 @@
 body{
  background-color: #F4D04E;
+ display: flex;
+ align-items: center;
+ height: 100vh;
 }
 
 .card{
