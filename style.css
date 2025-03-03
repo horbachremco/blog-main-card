@@ -15,7 +15,6 @@ body{
   padding: 24px 24px;
   font-family: 'Figtree', sans-serif;
   box-shadow: 8px 8px;
-
 }
 
 .card-image{
@@ -47,11 +46,17 @@ body{
 
 .title{
     font-size: 24px;
+    width: fit-content;
     line-height: 150%;
     letter-spacing: 0px;
     color: #111111;
     margin-bottom: 12px;
     font-weight: bold;
+}
+
+.title:hover{
+    color: #F4D04E;
+    cursor: pointer;
 }
 .info{
     font-size: 16px;
